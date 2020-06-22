@@ -19,9 +19,6 @@ import './styles/styles.scss';
     console.log(visibleExpenses);
   });
   
-  const expenseOne = store.dispatch(addExpense({ description: 'Watter Bill', amount: 100, createdAt: -200 }));
-  const expenseTwo = store.dispatch(addExpense({ description: 'Gaz Bill', amount: 300, createdAt: -1000 }));
-  const expenseThree = store.dispatch(addExpense({ description: 'Coffe Bill', amount: 500, createdAt: -1100 }));
   const jsx = (
     <Provider store ={store}>
         <AppRouter />
