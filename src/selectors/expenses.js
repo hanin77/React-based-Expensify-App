@@ -18,3 +18,5 @@ export default (expenses, { text, sortBy, startDate, endDate }) => {
     }
   });
 };
+
+
